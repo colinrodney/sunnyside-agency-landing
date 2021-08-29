@@ -1,0 +1,15 @@
+@import "reset";
+@import "header";
+@import "main-content";
+@import "footer";
+
+// REMOVE OVERFLOW FROM ENTIRE DOCUMENT
+body {
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.no-overflow {
+  overflow: hidden;
+}

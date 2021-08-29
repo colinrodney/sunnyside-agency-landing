@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="dist/css/main.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="p-0 no-overflow container-fluid">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light py-0">
+        <div class="custom-nav-positioning container-fluid">
+          <a class="navbar-brand" href="#">sunnyside</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- END NAVBAR -->
+      <!-- HERO IMG (HEADER) -->
+      <div class="hero row row-cols">
+        <figure class="hero-figure">
+          <picture>
+            <source
+              media="(min-width: 767px)"
+              srcset="dist/images/desktop/image-header.jpg"
+            />
+            <img
+              class="hero-img"
+              src="dist/images/mobile/image-header.jpg"
+              alt="header-image"
+            />
+            <figcaption class="hero-text">We are creatives</figcaption>
+          </picture>
+        </figure>
+      </div>
+      <!-- END HERO IMG (HEADER) -->
+      <!-- START: 2 COLUMN ROWS -->
+      <main class="main-content">
+        <!-- TRANSFORM -->
+        <div class="row row-cols-md-2 gx-0">
+          <div
+            class="
+              d-flex
+              flex-column
+              justify-content-center
+              text-center text-md-start
+              main-content-info
+              order-1 order-md-0
+            "
+          >
+            <p class="lead">Transform your brand</p>
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a href="#">Learn more</a>
+            <hr id="transform" class="horizontal-row" />
+          </div>
+          <div>
+            <picture>
+              <source
+                media="(min-width: 767px)"
+                srcset="dist/images/desktop/image-transform.jpg"
+              />
+
+              <img
+                class="main-content-img"
+                src="dist/images/mobile/image-transform.jpg"
+                alt="transform"
+              />
+            </picture>
+          </div>
+        </div>
+        <!-- STAND-OUT -->
+        <div class="row row-cols-md-2 gx-0">
+          <div
+            class="
+              d-flex
+              flex-column
+              justify-content-center
+              order-1
+              text-center text-md-start
+              main-content-info
+            "
+          >
+            <p class="lead">Stand out to the right audience</p>
+            <p>
+              Stand out to the right audience Using a collaborative formula of
+              designers, researchers, photographers, videographers, and
+              copywriters, we’ll build and extend your brand in digital places.
+            </p>
+            <a href="#">Learn more</a>
+            <hr id="standout" class="horizontal-row" />
+          </div>
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="dist/images/desktop/image-stand-out.jpg"
+            />
+            <img
+              class="main-content-img"
+              src="dist/images/mobile/image-stand-out.jpg"
+              alt="transform"
+            />
+          </picture>
+          <!-- <picture>
+            <source
+              media="(min-width:768px)"
+              srcset="dist/images/desktop/image-stand-out.jpg"
+            />
+            <img
+              class="order-0"
+              src="dist/images/mobile/image-stand-out.jpg"
+              alt="stand-out"
+            />
+          </picture> -->
+        </div>
+        <!-- SIDE-X-SIDE IMAGES -->
+        <div class="side-x-side-images-row row row-cols-md-2 g-0">
+          <figure class="textover m-0">
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="dist/images/desktop/image-graphic-design.jpg"
+              />
+              <img
+                class="side-x-side-images"
+                src="dist/images/mobile/image-graphic-design.jpg"
+                alt="graphic-design"
+              />
+            </picture>
+            <figcaption id="graphic-design" class="img-text">
+              <p class="figcaption-title">Graphic Design</p>
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </figcaption>
+          </figure>
+          <!-- <div class="box-1">
+          </div> -->
+          <figure class="textover">
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="dist/images/desktop/image-photography.jpg"
+              />
+              <img
+                class="side-x-side-images"
+                src="dist/images/mobile/image-photography.jpg"
+                alt="graphic-design"
+              />
+            </picture>
+            <figcaption id="photography" class="img-text">
+              <p class="figcaption-title">Photography</p>
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </figcaption>
+          </figure>
+          <!-- <div class="box-2">
+          </div> -->
+          <!-- END SIDE-X-SIDE IMAGES -->
+          <!-- END: 2 ROW COLUMNS -->
+        </div>
+        <!-- START: TESTIMONIAL SECTION -->
+        <p class="testimonials-header text-uppercase text-center lead mt-5">
+          client testimonials
+        </p>
+        <div class="testimonials text-center row row-cols-md-3 p-5">
+          <div class="testimonials-card">
+            <img src="dist/images/image-emily.jpg" alt="emily-r." />
+            <p class="testaments mt-5 mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, labore.
+            </p>
+            <p class="names mt-5 mb-0">Emily R.</p>
+            <small class="job-titles">Marketing Director</small>
+          </div>
+          <div class="testimonials-card">
+            <img src="dist/images/image-thomas.jpg" alt="thomas" />
+            <p class="testaments mt-5 mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, labore.
+            </p>
+            <p class="names mt-5 mb-0">Thomas S</p>
+            <small class="job-titles">Chief Operations OFfiver</small>
+          </div>
+          <div class="testimonials-card">
+            <img src="dist/images/image-jennie.jpg" alt="jennie" />
+            <p class="testaments mt-5 mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, labore.
+            </p>
+            <p class="names mt-5 mb-0">Jennie F</p>
+            <small class="job-titles">Business Owner</small>
+          </div>
+          <!-- <p class="text-center lead">testimonials</p> -->
+        </div>
+        <!-- END: TESTIMONIAL SECTION -->
+        <!-- START: 2 Column Image Roll (<= 568px [small screens])/4 Column Image Roll (>= 768px [Medium screens and larger]) -->
+        <div class="row row-cols-2 row-cols-md-4 g-0 mt-5">
+          <picture class="order-0">
+            <source
+              media="(min-width: 768px)"
+              srcset="dist/images/desktop/image-gallery-milkbottles.jpg"
+            />
+            <img
+              class="image-gallery"
+              src="dist/images/mobile/image-gallery-milkbottles.jpg"
+              alt="milkbottles"
+            />
+          </picture>
+          <picture class="order-2">
+            <source
+              media="(min-width: 768px)"
+              srcset="dist/images/desktop/image-gallery-cone.jpg"
+            />
+            <img
+              class="image-gallery"
+              src="dist/images/mobile/image-gallery-cone.jpg"
+              alt="cone"
+            />
+          </picture>
+          <picture class="order-1">
+            <source
+              media="(min-width: 768px)"
+              srcset="dist/images/desktop/image-gallery-orange.jpg"
+            />
+            <img
+              class="image-gallery"
+              src="dist/images/mobile/image-gallery-orange.jpg"
+              alt="orange"
+            />
+          </picture>
+          <picture class="order-3">
+            <source
+              media="(min-width: 768px)"
+              srcset="dist/images/desktop/image-gallery-sugarcubes.jpg"
+            />
+            <img
+              class="image-gallery"
+              src="dist/images/mobile/image-gallery-sugar-cubes.jpg"
+              alt="sugar-cubes"
+            />
+          </picture>
+        </div>
+        <!-- END: 2 Column Image Roll (<= 568px [small screens])/4 Column Image Roll (>= 768px [Medium screens and larger]) -->
+
+        <!-- END: MAIN CONTENT -->
+      </main>
+
+      <!-- START FOOTER -->
+      <div class="footer p-3">
+        <p class="footer-lead fs-1 text-center mb-3">sunnyside</p>
+        <ul class="d-flex justify-content-center footer-ul mb-5">
+          <li><a href="#"></a>About</li>
+          <li><a href="#"></a>Projects</li>
+          <li><a href="#"></a>Contact</li>
+        </ul>
+        <div class="d-flex justify-content-center fs-2">
+          <i class="mx-3 footer-social fab fa-facebook-square"></i>
+          <i class="mx-3 footer-social fab fa-twitter"></i>
+          <i class="mx-3 footer-social fab fa-instagram"></i>
+          <i class="mx-3 footer-social fab fa-pinterest"></i>
+        </div>
+        <!-- ATTRIBUTION SECTION -->
+        <div class="attribution mt-3 p-3">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Your Name Here</a>.
+        </div>
+      </div>
+      <!-- END FOOTER -->
+    </div>
+    <!-- END: MAIN-CONTENT CONTAINER -->
+    <!-- We are creatives   Photography Increase your
+    credibility by getting the most stunning, high-quality photos that improve
+    your business image. Client testimonials We put our trust in Sunnyside and
+    they delivered, making sure our needs were met and deadlines were always
+    hit. Emily R. Marketing Director Sunnyside’s enthusiasm coupled with their
+    keen interest in our brand’s success made it a satisfying and enjoyable
+    experience. Thomas S. Chief Operating Officer Incredible end result! Our
+    sales increased over 400% when we worked with Sunnyside. Highly recommended!
+    Jennie F. Business Owner About Services Projects Contact -->
+
+    <!-- <div class="attribution mt-3 p-3">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <!-- END: BODY -->
+</html>
+<!-- END DOCUMENT -->

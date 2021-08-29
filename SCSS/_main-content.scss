@@ -1,0 +1,157 @@
+// .info class divs
+.main-content {
+  a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Fraunces", serif;
+    position: relative;
+    top: 1.5rem;
+  }
+
+  // accents beneath main-content links
+  .horizontal-row {
+    display: block;
+    height: 8px;
+    width: 29%;
+  }
+  #transform {
+    color: hsl(51, 100%, 49%);
+  }
+  #standout {
+    color: #ff7364;
+  }
+
+  .lead {
+    font-family: "Fraunces", serif;
+    font-weight: 800;
+  }
+
+  .lead + p {
+    font-family: "Barlow", sans-serif;
+    color: hsl(232, 10%, 55%);
+  }
+
+  &-info {
+    padding: 1.5rem;
+  }
+
+  &-img {
+    width: 100%;
+  }
+
+  .img-text {
+    .figcaption-title {
+      font-family: "Fraunces", serif;
+      font-weight: 800;
+      font-size: 2.5rem;
+    }
+  }
+  #graphic-design {
+    color: hsl(167, 40%, 24%);
+  }
+  #photography {
+    color: hsl(198, 62%, 26%);
+  }
+
+  // CLIENT TESIMONIALS
+
+  .testimonials-header {
+    color: hsl(232, 10%, 55%);
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .testaments {
+    color: hsl(232, 10%, 55%);
+  }
+
+  .names {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+  }
+
+  .job-titles {
+    color: hsl(210, 4%, 67%);
+  }
+  // IMAGE GALLERY
+  .image-gallery {
+    width: 100%;
+  }
+}
+
+// POSITIONING HERO IMAGE TEXT
+.hero-figure {
+  position: relative;
+  margin: 0;
+
+  .hero-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+// SIDE-BY-SIDE IMAGES
+// position parent container
+.side-x-side-images-row {
+  .side-x-side-images {
+    width: 100%;
+  }
+
+  .textover {
+    position: relative;
+    margin: 0;
+
+    .img-text {
+      position: absolute;
+      top: 60%;
+      max-width: 60ch;
+      text-align: center;
+      margin: 0 1.5rem;
+      font-size: 5vw;
+      // transform: translate(10%, 10%);
+    }
+  }
+}
+
+// ATTRIBUTIONS
+.attribution {
+  font-size: 1.5rem;
+}
+
+// BORDER RADIUS @ TESTIMONIALS IMAGES
+.testimonials-card > img {
+  border-radius: 50%;
+}
+
+// MEDIA QUERIES
+@media (min-width: 768px) {
+  .side-x-side-images-row {
+    .side-x-side-images {
+      width: 100%;
+    }
+
+    .textover {
+      position: relative;
+      margin: 0;
+
+      .img-text {
+        position: absolute;
+        top: 60%;
+        max-width: 60ch;
+        text-align: center;
+        margin: 0 1.5rem;
+        font-size: 2vw;
+        // transform: translate(10%, 10%);
+      }
+    }
+    // SIDE-BY-SIDE IMAGES
+    .img-text {
+      .figcaption-title {
+        font-size: 1.5rem;
+        margin: 0;
+      }
+    }
+  }
+}

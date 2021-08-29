@@ -1,0 +1,16 @@
+.footer {
+  background: hsl(168, 65%, 75%);
+  background: hsl(202, 85%, 80%);
+  height: auto;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: hsl(168, 34%, 41%);
+
+  &-ul {
+    list-style-type: none;
+
+    li {
+      margin-right: 2rem;
+    }
+  }
+}
