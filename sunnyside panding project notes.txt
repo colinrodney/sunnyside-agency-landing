@@ -1,0 +1,32 @@
+Built With:
+Bootstrap 5.0.2
+Sass
+
+What did we learn?
+
+- Several Bootstrap utilities etc...
+
+- ms/me( margin-start / margin-end) spacing utilityu classes in bootstrap which allows for fast + easy spascing. (particularly in the case of the navbar- having to move the <ul> to the right of the screen.
+
+> srcset attribute for images (HTML attribute)
+
+- Increases performance by choosing which image to load based on screen size
+
+> removed padding using (p-0) @ main-content container to achieve full page width effect of design. When the padding was removed from the main-content container all of the text on the page shifted and I found myself suddenly dealing with lots of overflow etc... To offset the shift in padding on the container, I inserted padding to the appropriate containers as necessary using the following units of measurement: 
+
+  - Units of measurement used:
+    - Percentages: use when padding content enclosed within a parent container
+    - rem: These are usually my go to, but I have found that subtle issue can creep up when using relative units vs absolute units of measurement. For example, in re-sizing the screen (especially when working w/ text that has been positioned over an image), use of relative measurement units will cause the text to shift, which is what we DO NOT want to happen. Absolute units of measurement appear to allow for more uniform scaling of text upon re-sizing the view port.
+
+
+  Remaining Todos: (as of 08/15/2021)
+
+  1. Style text color @ header
+  2. Add/ position arrow @ header
+  3. Add active states to header links
+  4. Adjust font-weight @ header/ footer
+  5. Remove border from nav-toggle button
+  6. Address horizontal rows shifting to left @ mobile screens
+  7. Adjust padding @ graphic design section + text @ mobile screens
+  8. Adjust font-sizes @ mobile screens (client testimonials etc...)
+  9. @ Client Testimonials Section @ mobile screens - adjust vertical (Y) margin between sections.

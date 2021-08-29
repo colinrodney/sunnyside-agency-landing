@@ -1,0 +1,24 @@
+
+Sunnyside Agency Image Dimensions:
+
+Desktop:
+Graphic Design:
+(w x h)
+720 X 600
+
+Photography:
+(w x h)
+720 X 600
+
+
+
+Mobile:
+Graphic Design:
+(w x h)
+750 X 1200
+
+Photography:
+(w x h)
+750 X 1200
+
+How to find device pixel density? (Any device)

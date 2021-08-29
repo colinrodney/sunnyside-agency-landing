@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.custom-nav-positioning {
+  position: absolute;
+  top: 4rem;
+  z-index: 10; }
+
+.nav-item {
+  margin-right: 1rem; }
+
+.hero-img {
+  width: 100%; }
+
+.hero-text {
+  font-size: 6vw;
+  font-family: "Fraunces", serif; }
+
+.main-content a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Fraunces", serif;
+  position: relative;
+  top: 1.5rem; }
+
+.main-content .horizontal-row {
+  display: block;
+  height: 8px;
+  width: 29%; }
+
+.main-content #transform {
+  color: #fad400; }
+
+.main-content #standout {
+  color: #ff7364; }
+
+.main-content .lead {
+  font-family: "Fraunces", serif;
+  font-weight: 800; }
+
+.main-content .lead + p {
+  font-family: "Barlow", sans-serif;
+  color: #818498; }
+
+.main-content-info {
+  padding: 1.5rem; }
+
+.main-content-img {
+  width: 100%; }
+
+.main-content .img-text .figcaption-title {
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  font-size: 2.5rem; }
+
+.main-content #graphic-design {
+  color: #25564b; }
+
+.main-content #photography {
+  color: #19536b; }
+
+.main-content .testimonials-header {
+  color: #818498;
+  letter-spacing: 0.5rem;
+  font-size: 2rem; }
+
+.main-content .testaments {
+  color: #818498; }
+
+.main-content .names {
+  font-family: "Fraunces", serif;
+  font-weight: 700; }
+
+.main-content .job-titles {
+  color: #a7abae; }
+
+.main-content .image-gallery {
+  width: 100%; }
+
+.hero-figure {
+  position: relative;
+  margin: 0; }
+  .hero-figure .hero-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.side-x-side-images-row .side-x-side-images {
+  width: 100%; }
+
+.side-x-side-images-row .textover {
+  position: relative;
+  margin: 0; }
+  .side-x-side-images-row .textover .img-text {
+    position: absolute;
+    top: 60%;
+    max-width: 60ch;
+    text-align: center;
+    margin: 0 1.5rem;
+    font-size: 5vw; }
+
+.attribution {
+  font-size: 1.5rem; }
+
+.testimonials-card > img {
+  border-radius: 50%; }
+
+@media (min-width: 768px) {
+  .side-x-side-images-row .side-x-side-images {
+    width: 100%; }
+  .side-x-side-images-row .textover {
+    position: relative;
+    margin: 0; }
+    .side-x-side-images-row .textover .img-text {
+      position: absolute;
+      top: 60%;
+      max-width: 60ch;
+      text-align: center;
+      margin: 0 1.5rem;
+      font-size: 2vw; }
+  .side-x-side-images-row .img-text .figcaption-title {
+    font-size: 1.5rem;
+    margin: 0; } }
+
+.footer {
+  background: #96e9d8;
+  background: #a1d8f7;
+  height: auto;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: #458c7e; }
+  .footer-ul {
+    list-style-type: none; }
+    .footer-ul li {
+      margin-right: 2rem; }
+
+body {
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600; }
+
+.no-overflow {
+  overflow: hidden; }
