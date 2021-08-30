@@ -10,13 +10,14 @@
 
   // accents beneath main-content links
   .horizontal-row {
-    display: block;
+    // display: block;
     height: 8px;
     width: 29%;
+    color: #000;
   }
-  #transform {
-    color: hsl(51, 100%, 49%);
-  }
+  // #transform {
+  //   color: hsl(51, 100%, 49%);
+  // }
   #standout {
     color: #ff7364;
   }
@@ -123,6 +124,10 @@
 // BORDER RADIUS @ TESTIMONIALS IMAGES
 .testimonials-card > img {
   border-radius: 50%;
+}
+
+.testimonials-card {
+  margin-bottom: 4rem;
 }
 
 // MEDIA QUERIES

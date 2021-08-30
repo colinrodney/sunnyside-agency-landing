@@ -26,12 +26,9 @@
   top: 1.5rem; }
 
 .main-content .horizontal-row {
-  display: block;
   height: 8px;
-  width: 29%; }
-
-.main-content #transform {
-  color: #fad400; }
+  width: 29%;
+  color: #000; }
 
 .main-content #standout {
   color: #ff7364; }
@@ -107,6 +104,9 @@
 
 .testimonials-card > img {
   border-radius: 50%; }
+
+.testimonials-card {
+  margin-bottom: 4rem; }
 
 @media (min-width: 768px) {
   .side-x-side-images-row .side-x-side-images {
