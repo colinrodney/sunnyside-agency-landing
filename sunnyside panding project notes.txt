@@ -19,14 +19,14 @@ What did we learn?
     - rem: These are usually my go to, but I have found that subtle issue can creep up when using relative units vs absolute units of measurement. For example, in re-sizing the screen (especially when working w/ text that has been positioned over an image), use of relative measurement units will cause the text to shift, which is what we DO NOT want to happen. Absolute units of measurement appear to allow for more uniform scaling of text upon re-sizing the view port.
 
 
-  Remaining Todos: (as of 08/15/2021)
+Remaining Todos: (as of 08/29/2021)
 
-  1. Style text color @ header
+  1. Style text color @ header  [CDN is stopping me from doing this - need to use bootstrap locally @ project]
+
   2. Add/ position arrow @ header
   3. Add active states to header links
   4. Adjust font-weight @ header/ footer
   5. Remove border from nav-toggle button
   6. Address horizontal rows shifting to left @ mobile screens
-  7. Adjust padding @ graphic design section + text @ mobile screens
-  8. Adjust font-sizes @ mobile screens (client testimonials etc...)
-  9. @ Client Testimonials Section @ mobile screens - adjust vertical (Y) margin between sections.
+  
+  8. Adjust font-sizes @ mobile screens (client testimonials etc...)[???]
