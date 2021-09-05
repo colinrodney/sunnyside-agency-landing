@@ -18,15 +18,62 @@ What did we learn?
     - Percentages: use when padding content enclosed within a parent container
     - rem: These are usually my go to, but I have found that subtle issue can creep up when using relative units vs absolute units of measurement. For example, in re-sizing the screen (especially when working w/ text that has been positioned over an image), use of relative measurement units will cause the text to shift, which is what we DO NOT want to happen. Absolute units of measurement appear to allow for more uniform scaling of text upon re-sizing the view port.
 
+@ Using Bootstrap localy in project:
 
-Remaining Todos: (as of 08/29/2021)
+Learning how to use Bootstrap saved locally to a project alongside sass
 
-  1. Style text color @ header  [CDN is stopping me from doing this - need to use bootstrap locally @ project]
+- Nothing special to do since we will link directly to the bootstrap CSS file where I'll whatever bootstrap elements need to be modified as needed
+
+
+
+@ Changing the color of the navbar-toggler-icon in Bootstrap:
+First locate the associated elements in CSS file (.navbar-toggler-icon).
+
+To locate the svg background-image use ctrl-f within your CSS style sheet and search 'navbar-toggler-icon' (no quotes). There wont be many of these entries and you'll be able to see the `background-image` property with its url value.
+
+Look for the 'stroke' property as this is the value we will be changing.
+
+When changing the rgba value @ the troke property of the svg background image data you will see something that looks like this:
+
+`rgba%280, 0, 0, 0.55%29`
+
+the %28 and %29 are ASCII encoding references where %28represents the opening paretheses '(' and %29 represents the closing paretheses'('.
+
+So if a normal rgba value looks like this:
+
+rgba(255,0,0,1)
+
+the ASCII encoded reference you will see assigned to the stroke property in the svg data will look like this:
+
+`stroke='rgba%280, 0, 0, 0.55%29'`
+
+and should be interpreted as
+
+`stroke=rgba(255,0,0,1)`
+
+This also works the same for hsl/hsla values as follows:
+
+Normal hsla value:
+`hsla(0,0%,100%,1)`
+
+ASCII encoded hsla value
+`stroke="hsla%280, 0%, 100%%29"`
+
+
+@ How to remove the outline from the navbar-toggler when clicked?
+
+Using ctrl-f within the bootstrap.css stylesheet to locate the .navbar-toggler-icon:focus element.
+
+The :focus pseudo-class references an element when it receives focus(ie when clicked or moved into view etc...more info).
+
+Simply change the value of the `outline` property to 'none', click the navbar toggler icon and the outline will no longer appear.
+
+
+Remaining Todos: (as of 09/05/2021)
+
+  
 
   2. Add/ position arrow @ header
   3. Add active states to header links
-  4. Adjust font-weight @ header/ footer
-  5. Remove border from nav-toggle button
   6. Address horizontal rows shifting to left @ mobile screens
-  
   8. Adjust font-sizes @ mobile screens (client testimonials etc...)[???]
