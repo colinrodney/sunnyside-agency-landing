@@ -71,8 +71,6 @@ Simply change the value of the `outline` property to 'none', click the navbar to
 
 Remaining Todos: (as of 09/05/2021)
 
-  
-  2. Add active states to header links (mission critical)
-  3. Address horizontal rows shifting to left @ mobile screens
-  4. Adjust font-sizes @ mobile screens (client testimonials etc...)[???]
+  1. Address horizontal rows shifting to left @ mobile screens
+  2. Adjust font-sizes @ mobile screens (client testimonials etc...)[???]
   
