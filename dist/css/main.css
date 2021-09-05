@@ -11,12 +11,28 @@
 .nav-item {
   margin-right: 1rem; }
 
+.hero-figure {
+  position: relative;
+  margin: 0; }
+  .hero-figure .hero-text {
+    position: absolute;
+    top: 45%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8vw;
+    font-family: "Fraunces", serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white; }
+
 .hero-img {
   width: 100%; }
 
-.hero-text {
-  font-size: 6vw;
-  font-family: "Fraunces", serif; }
+@media (min-width: 768px) {
+  .hero-figure .hero-text {
+    top: 40%;
+    font-size: 5vw; } }
 
 .main-content a {
   text-decoration: none;
@@ -75,15 +91,6 @@
 
 .main-content .image-gallery {
   width: 100%; }
-
-.hero-figure {
-  position: relative;
-  margin: 0; }
-  .hero-figure .hero-text {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
 
 .side-x-side-images-row .side-x-side-images {
   width: 100%; }

@@ -6,27 +6,41 @@
   z-index: 10;
 }
 
-// nav {
-//   .nav-text-color {
-//     color: #fff;
-//   }
-// }
-
-// .navbar a {
-//   color: #fff;
-// }
-
 // SPACE NAV LIST ITEMS
 .nav-item {
   margin-right: 1rem;
 }
 
 // HERO IMAGE STYLES
+// POSITIONING HERO IMAGE TEXT
+.hero-figure {
+  position: relative;
+  margin: 0;
+
+  .hero-text {
+    position: absolute;
+    top: 45%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // font-size: 4rem;
+    font-size: 8vw;
+    font-family: "Fraunces", serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+  }
+}
+
 .hero-img {
   width: 100%;
 }
 
-.hero-text {
-  font-size: 6vw;
-  font-family: "Fraunces", serif;
+@media (min-width: 768px) {
+  .hero-figure {
+    .hero-text {
+      top: 40%;
+      font-size: 5vw;
+    }
+  }
 }
