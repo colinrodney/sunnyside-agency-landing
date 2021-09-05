@@ -25,6 +25,9 @@
     text-align: center;
     text-transform: uppercase;
     color: white; }
+  .hero-figure img {
+    display: block;
+    margin: 0 auto; }
 
 .hero-img {
   width: 100%; }
