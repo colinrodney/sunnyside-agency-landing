@@ -141,6 +141,11 @@
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   color: #458c7e; }
+  .footer .footer-link {
+    text-decoration: none;
+    color: #458c7e; }
+  .footer .footer-link:hover {
+    color: white; }
   .footer-ul {
     list-style-type: none; }
     .footer-ul li {
@@ -153,3 +158,6 @@ body {
 
 .no-overflow {
   overflow: hidden; }
+
+a:hover {
+  cursor: pointer; }

@@ -73,5 +73,5 @@ Remaining Todos: (as of 09/05/2021)
 
   1. Address horizontal rows shifting to left @ mobile screens
   2. Adjust font-sizes @ mobile screens (client testimonials etc...)[???]
-  3. @footer - properly place text inside <a> elements
+  3. Address text color @ hover in nav menu
   
