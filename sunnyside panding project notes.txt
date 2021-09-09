@@ -69,9 +69,8 @@ The :focus pseudo-class references an element when it receives focus(ie when cli
 Simply change the value of the `outline` property to 'none', click the navbar toggler icon and the outline will no longer appear.
 
 
-Remaining Todos: (as of 09/07/2021)
+Remaining Todos: (as of 09/08/2021)
 
-  1. Address horizontal rows shifting to left @ mobile screens
-  2. Adjust font-sizes @ mobile screens (client testimonials etc...)[???]
-  3. Address text color @ hover in nav menu
+  1. Address horizontal rows shifting to left @ mobile screens [REQUEST HELP]!
+  
   
