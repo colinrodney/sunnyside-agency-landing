@@ -4503,9 +4503,9 @@ fieldset:disabled .btn {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
   /* color: rgba(255, 255, 255, 0.75); */
-  background: hsl(0, 0%, 100%);
+  background: hsla(0, 0%, 100%, 0.5);
   border-radius: 50px;
-  color: hsl(198, 62%, 26%);
+
   text-transform: uppercase;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
@@ -4514,7 +4514,7 @@ fieldset:disabled .btn {
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
   /* color: #fff; */
-  color: hsl(198, 62%, 26%);
+  /* color: hsl(198, 62%, 26%); */
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
