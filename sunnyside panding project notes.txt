@@ -72,5 +72,9 @@ Simply change the value of the `outline` property to 'none', click the navbar to
 Remaining Todos: (as of 09/08/2021)
 
   1. Address horizontal rows shifting to left @ mobile screens [REQUEST HELP]!
+
+  2. Finish adding active states @ "Learn More" links in main-content section!!
+
+  3. Address font size @ attribution section + add your name + link to working project!
   
   
